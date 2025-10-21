@@ -25,7 +25,9 @@ Installation
 git clone https://github.com/<your-username>/CodeGuru.git
 cd CodeGuru
 python -m venv venv
+
 # Activate virtual environment
+
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
 pip install -r requirements.txt
