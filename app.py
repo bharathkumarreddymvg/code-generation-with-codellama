@@ -2,6 +2,9 @@ import requests
 import json
 import gradio as gr
 
+## code
+##
+
 url="http://localhost:11434/api/generate"
 
 headers={
@@ -35,4 +38,5 @@ interface=gr.Interface(
     inputs=gr.Textbox(lines=4,placeholder="enter the prompt"),
     outputs="text"
 )
+
 interface.launch()
